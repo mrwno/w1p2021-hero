@@ -1,11 +1,11 @@
 # Le site dont vous êtes le héros
 
-URL du site : http://votre-url-ici.com
-
+URL du site : testgamehetic.netlify.com
 ### Groupe
 
-- Prénom & Nom
-- Prénom & Nom
+- Marwane Ouaret
+- Aude Timou
+
 
 ## Prologue
 
