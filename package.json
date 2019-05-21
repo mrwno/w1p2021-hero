@@ -5,6 +5,7 @@
     "node": ">=8.0.0"
   },
   "scripts": {
+
     "dev": "parcel app/index.html",
     "build": "parcel build app/index.html && cp _redirects dist/",
     "lint": "esw . --ext .js,.vue --watch --color"
