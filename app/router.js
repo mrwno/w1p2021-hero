@@ -6,8 +6,11 @@ import Characters from './components/Characters.vue';
 import Game1 from './components/Start.vue';
 import Game2 from './components/Jungle.vue';
 import Game3 from './components/River.vue';
+import Game4 from './components/Ravin.vue';
+import Game5 from './components/Ocean.vue';
 import Lose from './components/Lose.vue';
 import Win from './components/Win.vue';
+
 
 
 
@@ -41,6 +44,16 @@ const router = new Router({
       path: '/game/3',
       name: 'game3',
       component: Game3,
+    },
+    {
+      path: '/game/4',
+      name: 'game4',
+      component: Game4,
+    },
+    {
+      path: '/game/5',
+      name: 'game5',
+      component: Game5,
     },
     {
       path: '/lose',

@@ -7,7 +7,7 @@
       <Choice v-bind:choice="choice[0]"></Choice>     
     </router-link>
 
-    <router-link class="button" to="/game/3">
+    <router-link class="button" to="/game/4">
       <Choice v-bind:choice="choice[1]"></Choice> 
     </router-link>
   </div>

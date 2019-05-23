@@ -3,11 +3,11 @@
     <h1>{{ title }}</h1>
     <p>{{ text }}</p>
     
-    <router-link class="button" to="/game/4">
+    <router-link class="button" to="/lose">
       <Choice v-bind:choice="choice[0]"></Choice>     
     </router-link>
 
-    <router-link class="button" :to="grappinRoute">
+    <router-link class="button" to="/game/2">
       <Choice v-bind:choice="choice[1]"></Choice> 
     </router-link>
   </div>
@@ -18,17 +18,17 @@
 <script>
 import Choice from './base/Choice.vue';
 import data from '../../data.json';
-import service from '../service/grappinRoute.js';
+
 
 export default {
   data: function(){
     return {
       choice: [
       {  
-        name: 'Faire peur au croco',
+        name: 'Nager à contre courrant',
       },
       {
-        name: 'passez en douce',
+        name: 'Longer la cote',
       }
     ]
   }
@@ -40,12 +40,6 @@ export default {
     },
     text() {
       return data[0].text;
-    },
-    grappinRoute() {
-      if ( service.has('Lance Pierre'))
-        return '/game/4';
-      else 
-        return '/game/5';
     }
   },
 

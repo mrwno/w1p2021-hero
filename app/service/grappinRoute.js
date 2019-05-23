@@ -8,7 +8,7 @@ class ObjectsService {
     console.log(this.objects)
   }
   has(object) {
-    this.objects.some(_object => _object === object)
+    return this.objects.some(_object => _object === object)
   }
 }
 
