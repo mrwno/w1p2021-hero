@@ -3,14 +3,23 @@
 
     <h1>{{ title }}</h1>
     <p>{{ text }}</p>
-    <div class="choice">    
+    <div class="choice">  
+      <div class="div">
+      <img src="../assets/image/tronc.png" />         
+      
       <router-link class="button" :to="grappinRoute">
         <Choice v-bind:choice="choice[0]"></Choice>     
       </router-link>
+      </div>
 
+      <div class="div">
+      <img src="../assets/image/lianes.png" />         
+      
       <router-link class="button" to="/win">
         <Choice v-bind:choice="choice[1]"></Choice> 
       </router-link>
+      </div>
+
     </div>
   </div>
 </template>

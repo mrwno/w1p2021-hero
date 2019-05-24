@@ -3,13 +3,19 @@
     <h1>{{ title }}</h1>
     <p>{{ text }}</p>
     <div class="choice">
+      <div class="div">
+      <img src="../assets/image/perso2.png" />
       <router-link  class="button" to="/game/1">
         <Character v-bind:character="character[0]"></Character>     
       </router-link>
-
+      </div>
+      <div class="div">
+      <img src="../assets/image/perso1.png" />
       <router-link class="button" to="/game/1">
         <Character v-bind:character="character[1]"></Character> 
       </router-link>
+      </div>
+
     </div>
   
 
