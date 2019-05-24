@@ -1,17 +1,33 @@
 <template>
   <div class="big-header">
-    <h1>{{ message }}</h1>
+
+    <h1> Ca à marché! Me voila de l’autre côté du ravin. Vous avez gagné !</h1>
     <br />
-    <router-link class="button" to="/"> Recommencer </router-link>
+    <div class="buttons m1">
+     <router-link class="button" to="/">
+        <Choice v-bind:choice="choice[0]"></Choice>     
+     </router-link>
+    </div>
   </div>
 </template>
 
 <script>
+
+import Choice from './base/Choice.vue';
+
+
 export default {
-  data() {
+  data: function() {
     return {
-      message: 'You Win'
+      choice: [
+      {  
+        name: 'Recommencer',
+      },
+      ]
     };
+  },
+  components: {
+    Choice
   }
 };
 </script>

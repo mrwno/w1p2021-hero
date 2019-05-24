@@ -2,14 +2,17 @@
   <div class="big-header">
     <h1>{{ title }}</h1>
     <p>{{ text }}</p>
+    <div class="choice">
+      <router-link  class="button" to="/game/1">
+        <Character v-bind:character="character[0]"></Character>     
+      </router-link>
 
-    <router-link  class="button" to="/game/1">
-      <Character v-bind:character="character[0]"></Character>     
-    </router-link>
+      <router-link class="button" to="/game/1">
+        <Character v-bind:character="character[1]"></Character> 
+      </router-link>
+    </div>
+  
 
-    <router-link class="button" to="/game/1">
-      <Character v-bind:character="character[1]"></Character> 
-    </router-link>
   </div>
 </template>
 
@@ -40,10 +43,10 @@ export default {
        ObjectsService.add('grappin');
     },
     title() {
-      return data[0].title;
+      return data[1].title;
     },
     text() {
-      return data[0].text;
+      return data[1].text;
     }
   },
 

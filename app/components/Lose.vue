@@ -1,8 +1,12 @@
 <template>
   <div class="big-header">
+
     <h1>{{ message }}</h1>
     <br />
-    <router-link class="button" to="/"> Recommencer </router-link>
+    <div class="buttons m1">
+     <router-link class="button" to="/"> Recommencer </router-link>
+    </div>
+
   </div>
 </template>
 

@@ -1,15 +1,18 @@
 <template>
   <div class="big-header">
+
     <h1>{{ title }}</h1>
     <p>{{ text }}</p>
-    
-    <router-link class="button" to="/game/2">
-      <Choice v-bind:choice="choice[0]"></Choice>     
-    </router-link>
+    <div class="choice">
+      <router-link class="button" to="/game/2">
+        <Choice v-bind:choice="choice[0]"></Choice>     
+      </router-link>
 
-    <router-link class="button" to="/game/3">
-      <Choice v-bind:choice="choice[1]"></Choice> 
-    </router-link>
+      <router-link class="button" to="/game/3">
+        <Choice v-bind:choice="choice[1]"></Choice> 
+      </router-link>
+    </div>
+
   </div>
 </template>
 
@@ -34,10 +37,10 @@ export default {
   },
   computed: {
     title() {
-      return data[0].title;
+      return data[2].title;
     },
     text() {
-      return data[0].text;
+      return data[2].text;
     }
   },
   components: {

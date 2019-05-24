@@ -1,8 +1,8 @@
 <template>
   <div @click="choose" class="">
-    <h2>{{character.name}}</h2>
+    <h2 class="buttons top">{{character.name}}</h2>
 
-    <h3>{{character.speciality}}</h3>
+    <h3 class="buttons bottom">{{character.speciality}}</h3>
 
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
  props: ['character'],
   methods: {
     choose() {
-      service.add(this.character.speciality)
+      service.toggle(this.character.speciality)
     }
   }
 };

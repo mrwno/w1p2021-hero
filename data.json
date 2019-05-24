@@ -6,13 +6,27 @@
     },
 
   "1": {
-      "img": "",
-      "textmonkey": "perso 1",
-      "textcrocodile": "grappin"
+      "title": "Avant de commencer l’aventure tu vas devoir choisir entre 2 personnages ceux ci possedent chacun un outils différents qui t’aideras pour plus tard",
+      "text": "Qui choisis-tu ?"
     },
   "2": {
-    "img": "",
-    "textmonkey": "perso 1",
-    "textcrocodile": "grappin"
+    "title": "Bien commençons l’aventure! Il va falloir que nous traversion cette endroit pour réussir à arriver à l’arrivée.",
+    "text": "Quel direction souhaites-tu prendre afin d’avancer le plus rapidement ? "
+  },
+  "3": { 
+    "title": "Nous sommes passés par la jungle cela va nous prendre plus de temps mais nous allons y arriver. ",
+    "text": "Me voila Perdu, je dois retrouver mon chemin  soit en montant a un arbre pour avoir une vision dégagée ou je suis les bruits des animaux "
+    },
+  "4": { 
+    "title": "J’OBSERVE QU’IL VA FALLOIR QUE JE TRAVERSE UN RAVIN .",
+    "text": "COMMENT DOIS JE TRAVERSER CELUI CI ?"
+    },
+  "5": { 
+    "title": "Nous sommes passé par la rivière ce qui nous a fais avancer plus vite mais nous rencontrons un léger problèmes : un crocodile",
+    "text": "Deux choix s'offre à nous, l'effrayer ou passer en douce. Le lance-Pierre est de grande utilitée."
+    },
+  "6": {
+    "title": "Bien joue cela a fonctionne. Je dois continuer a remonter la riviere.",
+    "text": "Soit je nage a contre courant ce qui pourrait me faire aller plus vite mais je m'épuiserai plus rapidement ou j’y vais tranquillement en nageant au bord de la rive"
   }
 }
