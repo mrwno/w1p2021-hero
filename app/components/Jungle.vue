@@ -19,7 +19,9 @@
       </div>
 
     </div>
-
+    <audio autoplay>
+      <source src="/assets/image/singe.mp3" type="audio/mpeg">
+    </audio>
   </div>
 </template>
 
