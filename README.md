@@ -1,6 +1,6 @@
 # Le site dont vous êtes le héros
 
-URL du site : testgamehetic.netlify.com
+URL du site : https://youvswild.netlify.com/
 ### Groupe
 
 - Marwane Ouaret
